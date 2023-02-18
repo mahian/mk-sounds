@@ -7,7 +7,7 @@ const Banner = () => {
                 <img src="assets/banner-product.png" alt="" />
             </div>
             <div>
-                <h2>Beats Studio3 Wireless Headphone</h2>
+                <h2 className='text-3xl font-bold'>Beats Studio3 Wireless Headphone</h2>
                 <div className='mt-2 flex items-center'>
                     <div className='flex'>
                         <img src="assets/star.png" className='h-5 w-5 mr-1' alt="" />

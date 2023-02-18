@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import DailyDils from '../components/DailyDils';
 import Header from '../components/Header';
 import SideBar from '../components/Sidebar';
 
@@ -16,8 +17,8 @@ const Main = () => {
                                 <div className='px-5 pb-24 w-full lg:h-[88vh] lg:overflow-y-auto no-scrollbar'>
                                     <Outlet />
                                 </div>
-                                <div className='hidden 2xl:block'>
-
+                                <div className='hidden md:block'>
+                                    <DailyDils/>
                                 </div>
                             </div>
                         </div>

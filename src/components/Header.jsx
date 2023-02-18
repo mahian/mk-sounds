@@ -32,7 +32,6 @@ const Header = () => {
     }
     return (
         <div className='w-full sticky top-0 z-10 sm:bg-white'>
-            <div className={`bg-black h-5 opacity-25 sm:hidden ${isSticky ? "hidden" : "block"}`}></div>
             <header className={`${isSticky ? "bg-white shadow-md text-black" : ""} py-4 sm:text-black`}>
                 <div className="flex items-center justify-between h-full px-6 mx-auto">
                     <button onClick={() => setIsOpen(true)} className="p-1 mr-5 -ml-1 rounded-md sm:hidden focus:outline-none focus:shadow-outline-purple" aria-label="Menu">
